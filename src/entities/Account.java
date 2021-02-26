@@ -1,6 +1,7 @@
 package entities;
 
-public class Account {
+public abstract class Account {
+	// public abstract class Account { não pode ser instanciada
 
 	private Integer number;
 	private String holder;
